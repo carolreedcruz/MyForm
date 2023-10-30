@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap'); 
+* {
+margin:0;
+padding:0;
+font-family:"Montserrat", sans-serif;
+list-style: none;
+text-decoration: none;
+
+}
+
+body {
+    background-color: black;
+}
+.form-container {
+display: grid;
+  grid-template-columns: repeat(20,150px);
+  grid-template-rows: 300px 300px 300px 300px;
+
+}
+.image-logo {
+    width: 269px;
+    height: 82px;
+    margin-bottom:25px;
+}
+
+.regristerings-box {
+    background-color:white;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    border-radius: 20px;
+ grid-row-start: 2;
+ grid-row-end:4;
+} 
+
+
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    
+}
+h2 {
+text-align: center;
+padding:20px;
+}
+
+h1 { 
+    color:white;
+    display:flex;
+    text-align: center;
+    font-size:30px;
+}
+
+.info {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstname-box{
+    padding:5px;
+}
+
+.username-box{
+    padding:5px;
+}
+
+.password-box{
+    padding:5px;
+}
+
+#fname {
+    width: 450px;
+    height: 30px;
+}
+
+#uname {
+    width: 450px;
+    height: 30px;
+}
+
+#pass {
+    width: 450px;
+    height: 30px;
+    margin-bottom:20px;
+}
+
+.radio-boxes {
+    margin-top: 15px;
+    margin-bottom:15px;
+    
+}
+
+.check-boxes {
+    margin-top: 25px;
+    margin-bottom:15px;
+}
+
+.sumbit-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    
+    
+}
+
+input[type=submit] {
+background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.3s ease 0s;
+
+}
+
+input[type=submit]:hover {
+    background-color:#0676139d;
+}   
